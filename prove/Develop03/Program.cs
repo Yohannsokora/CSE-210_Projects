@@ -12,7 +12,7 @@ public class Program
 
         while (remainingWords > 0)
         {
-            Console.WriteLine("Press Enter to reveal more words, or type 'quit' to exit: ");
+            Console.WriteLine("Press Enter to hide words, or type 'quit' to exit: ");
             var input = Console.ReadLine();
 
             if (input.ToLower() == "quit")
