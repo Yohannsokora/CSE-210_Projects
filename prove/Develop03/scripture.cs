@@ -39,4 +39,4 @@ class Scripture
     {
         return $"{_reference.Display()} - {_words.Select(word => word.Display()).Aggregate((current, next) => $"{current} {next}")}";
     }
-}
+} 
